@@ -10,7 +10,6 @@ Exploratory master's thesis work supervised by Vahan Huroyan, Saint Louis Univer
 - **[Code](code/)** — NumPy implementations of the numerical comparison and evaluation functions, with tests.
 - **[Data samples](data-samples/)** — Two real derived feature records, including matrix and SVD factors.
 - **[Reading references](REFERENCES.md)** — DINO, Grassmann pooling, evaluation, and mathematical background.
-- **[Interactive demo](https://dino-oxford-retrieval.liruoshui0710.chatgpt.site/)** — View image-retrieval rankings.
 
 ## What the evidence supports
 
