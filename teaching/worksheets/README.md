@@ -1,3 +1,27 @@
 # Worksheets
 
-Current precalculus practice materials.
+Current practice packets, including materials prepared for upcoming lessons. Numbering follows the course; Worksheet 9 is not part of the retained sequence.
+
+- [Worksheet 1](Worksheet_1.pdf)
+- [Worksheet 2](Worksheet_2.pdf)
+- [Worksheet 3](Worksheet_3.pdf)
+- [Worksheet 4](Worksheet_4.pdf)
+- [Worksheet 5](Worksheet_5.pdf)
+- [Worksheet 6](Worksheet_6.pdf)
+- [Worksheet 7](Worksheet_7.pdf)
+- [Worksheet 8](Worksheet_8.pdf)
+- [Worksheet 10](Worksheet_10.pdf)
+- [Worksheet 11](Worksheet_11.pdf)
+- [Worksheet 12](Worksheet_12.pdf)
+- [Worksheet 13](Worksheet_13.pdf)
+- [Worksheet 14](Worksheet_14.pdf)
+- [Worksheet 15](Worksheet_15.pdf)
+- [Worksheet 16](Worksheet_16.pdf)
+- [Worksheet 17](Worksheet_17.pdf)
+- [Worksheet 18](Worksheet_18.pdf)
+- [Worksheet 19](Worksheet_19.pdf)
+- [Worksheet 20](Worksheet_20.pdf)
+- [Worksheet 21](Worksheet_21.pdf)
+- [Worksheet 22](Worksheet_22.pdf)
+- [Worksheet 23](Worksheet_23.pdf)
+- [Worksheet 24](Worksheet_24.pdf)
