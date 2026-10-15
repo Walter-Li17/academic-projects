@@ -18,7 +18,7 @@
 \setlength{\parskip}{2pt}
 \setlist[itemize]{leftmargin=10pt,labelsep=3pt,itemsep=1.5pt,parsep=0pt,topsep=2pt}
 \titleformat{\section}{\fontsize{11}{14}\selectfont\bfseries\color{sectioncolor}}{}{0pt}{}
-\titlespacing*{\section}{0pt}{8pt}{3pt}
+\titlespacing*{\section}{0pt}{6pt}{3pt}
 \newcommand{\entry}[3]{\par\textbf{#1}\hfill #2\par#3\par}
 \begin{document}
 \fontsize{9.2}{11.5}\selectfont
@@ -37,8 +37,8 @@ ruoshuiliwalter.li@slu.edu $\vert$ liruoshui0710@gmail.com\par
 \textbf{Image Retrieval with DINO Features and SVD} (working title)\par
 Supervisor: Vahan Huroyan $\vert$ Expected completion: Spring 2027
 \begin{itemize}
-\item Ongoing study of whether dimensionality reduction and alternative representations of pretrained image features can improve image retrieval.
-\item Preliminary experiments compare whole-image, matrix, and subspace representations on Revisited Oxford and Paris using mean average precision. Project materials include saved comparison results and an interactive image-retrieval demonstration.
+\item Conducted experiments with frozen DINO features, comparing whole-image, matrix, and SVD-based subspace representations for retrieval on Revisited Oxford using mean average precision; evaluated one fixed candidate on Revisited Paris and visualized rankings in an interactive demo.
+\item Next phase: reproduce the supervised Grassmann pooling framework of Wei et al. (ECCV 2018), including learned dimensionality reduction, SVD-based pooling, and a learned classifier based on projection similarity.
 \end{itemize}
 
 \section*{Teaching Experience}
@@ -48,6 +48,7 @@ Supervisor: Vahan Huroyan $\vert$ Expected completion: Spring 2027
 \item Prepare and refine lecture notes, worksheets, quizzes, examinations, and solutions; align assessments with taught material and classroom pacing.
 \item Use AI to assist with rubric-based exam grading and preparation of student feedback.
 \end{itemize}
+\textbf{Teaching materials:} handwritten classroom notes, typed notes, worksheets, and sample assessments \href{https://github.com/Walter-Li17/academic-projects/tree/main/teaching}{on GitHub}.\par
 \entry{Calculus I Teaching Assistant}{Fall 2025}{Saint Louis University}
 \begin{itemize}
 \item Led discussion sessions, explained worked problems, and graded quizzes.
@@ -75,6 +76,6 @@ Supervisor: Vahan Huroyan $\vert$ Expected completion: Spring 2027
 \end{itemize}
 \vspace{4pt}
 \textbf{Additional background:} Completed four years at Sacred Heart High School, Waterbury, Connecticut; graduated in 2020.\par
-\vspace{4pt}
+\vspace{2pt}
 Updated October 2026
 \end{document}
