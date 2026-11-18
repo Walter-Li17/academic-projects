@@ -1,4 +1,4 @@
-"""Generate the October 2026 CV. Requires reportlab; uses only public CV content."""
+"""Generate the November 2026 CV. Requires reportlab; uses only public CV content."""
 from pathlib import Path
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 from reportlab.lib.styles import ParagraphStyle
@@ -30,8 +30,8 @@ ent('East China Normal University','Sept. 2020 - Dec. 2021','Study abroad progra
 sec("Master's Thesis (in progress)")
 a.append(p('<b>Image Retrieval with DINO Features and SVD</b> (working title)'))
 a.append(p('Supervisor: Vahan Huroyan | Expected completion: Spring 2027'))
-bullet('Conducted experiments with frozen DINO features, comparing whole-image, matrix, and SVD-based subspace representations for retrieval on Revisited Oxford using mean average precision; evaluated one fixed candidate on Revisited Paris and visualized rankings in an interactive demo.')
-bullet('Next phase: reproduce the supervised Grassmann pooling framework of Wei et al. (ECCV 2018), including learned dimensionality reduction, SVD-based pooling, and a learned classifier based on projection similarity.')
+bullet('Compared whole-image, matrix, and subspace representations of frozen DINO features on Revisited Oxford. Evaluated a fixed candidate on Revisited Paris and built an interactive view of the retrieval rankings.')
+bullet('Traced a cardinal photograph through pretrained VGG16 to a 512-by-784 feature matrix. Used a worked example to examine how repeated background features affect bilinear pooling and how Grassmann pooling weights singular directions.')
 
 sec('Teaching Experience')
 ent('Precalculus Instructor (MATH 1400)', 'Spring &amp; Fall 2026', 'Saint Louis University | Two semesters; Fall 2026 ongoing')
@@ -59,7 +59,7 @@ bullet('<b>Application planning:</b> Specified a workflow linking program requir
 a.append(Spacer(1,4))
 a.append(p('<b>Additional background:</b> Completed four years at Sacred Heart High School, Waterbury, Connecticut; graduated in 2020.','meta'))
 a.append(Spacer(1,2))
-a.append(p('Updated October 2026','meta'))
+a.append(p('Updated November 2026','meta'))
 target=O/'Ruoshui_Li_Resume.pdf'
 SimpleDocTemplate(str(target),pagesize=(612,792),leftMargin=45,rightMargin=45,topMargin=28,bottomMargin=25,title='Ruoshui Li Curriculum Vitae',author='Ruoshui Li').build(a)
 print(target)

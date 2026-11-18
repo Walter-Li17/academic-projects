@@ -4,6 +4,8 @@ Exploratory master's thesis work supervised by Vahan Huroyan, Saint Louis Univer
 
 ## Read and explore
 
+- **[From pixels to a feature matrix](pixels-to-matrix.md)** — Follow one grid cell through pretrained VGG16 and work through a pooling example.
+
 - **[Research presentation](Image_Retrieval_Research.pdf)** — 27 pages explaining the feature representations, comparison design, and next research direction.
 - **[Candidate 03 study](Candidate_03_Study.pdf)** — Six-page supplement on gallery-fitted PCA and soft whitening.
 - **[Results](results/)** — Completed comparison tables and interpretation.
@@ -13,11 +15,11 @@ Exploratory master's thesis work supervised by Vahan Huroyan, Saint Louis Univer
 
 ## What the evidence supports
 
-The 696-entry subspace comparison contains 600 scored independent configurations, 84 equivalent entries, and 12 invalid configurations. None beat the matched CLS baseline on both Oxford Medium and Hard mAP. A separate 15-variant patch-concatenation study also found no such improvement.
+The 696-entry subspace comparison contains 600 scored configurations, 84 equivalent entries, and 12 invalid configurations. None beat the matched CLS baseline on both Oxford Medium and Hard mAP. A separate 15-variant patch-concatenation study also found no such improvement.
 
 A ten-variant PCA/whitening study found four exploratory Oxford improvements. Candidate 03 reached Medium 34.4767% and Hard 8.7316%, compared with CLS at 32.2505% and 7.8191%. Candidate 03 was **not evaluated on Paris**. Candidate 01 was fixed and tested on Paris; it did not improve both metrics. These results do not establish a generalizable improvement.
 
-The planned Grassmann-pooling replication will add learned dimensionality reduction, SVD pooling, and a projection-similarity classifier. That next phase is not yet completed.
+My November study traced a photograph through pretrained VGG16 and examined how bilinear pooling weights repeated patterns. I am studying the Grassmann-pooling construction in Wei et al. (2018).
 
 The implementation and numerical checking were developed with AI assistance. The existing DINO, SVD, and geometric methods are credited in the references; this repository does not claim their invention.
 

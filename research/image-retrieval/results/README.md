@@ -1,5 +1,7 @@
 # Experimental results
 
+[November 2026 · Three responses from the VGG16 column near a cardinal’s beak](cardinal-column.csv) · [Method and interpretation](../pixels-to-matrix.md)
+
 | File | Scope | Outcome |
 |---|---|---|
 | [Subspace search](subspace_search_696.csv) | 696 planned entries: 600 scored, 84 equivalent, 12 invalid | No configuration improved both Oxford Medium and Hard over matched CLS. |
